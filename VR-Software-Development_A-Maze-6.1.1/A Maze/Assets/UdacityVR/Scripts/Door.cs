@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Door : MonoBehaviour {
 
     // TODO: Create variables to reference the game objects we need access to
