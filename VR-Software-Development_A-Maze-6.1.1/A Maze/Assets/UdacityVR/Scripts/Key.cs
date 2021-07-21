@@ -34,7 +34,7 @@ public class Key : MonoBehaviour {
 		// Use Destroy() to delete the key after for example 0.5 seconds
 		Object.Instantiate(keyPoofPrefab, transform.position,transform.rotation);
 		Destroy(gameObject,0.5f);
-		//door.Unlock();
+		door.Unlock();
 
 	}
 }
